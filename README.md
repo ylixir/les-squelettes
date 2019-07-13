@@ -8,4 +8,4 @@ démarrer un nouveau projet rapidement et facilement
 1. lorri
 
 # usage
-git clone git@github.com:ylixir/les-squelettes.git --single-branch --branch <lang> <folder>
+`git clone git@github.com:ylixir/les-squelettes.git --single-branch --branch <lang> <folder>`
