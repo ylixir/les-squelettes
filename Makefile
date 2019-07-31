@@ -16,8 +16,9 @@ BABEL := node_modules/.bin/babel --out-dir bin --extensions .ts --source-maps in
 setup:
 	sed -i 's/#project#/${PROJECT_NAME}/' shell.nix
 	sed -i 's/#project#/${PROJECT_NAME}/' package.json
-	awk '/^setup:$$/{n=5}; n {n--; next}; 1' < Makefile > Makefile.new
+	awk '/^setup:$$/{n=6}; n {n--; next}; 1' < Makefile > Makefile.new
 	mv Makefile.new Makefile
+	make
 
 all: types-check tests types bin
 clean:
