@@ -1,5 +1,7 @@
 PROJECT_NAME := $(notdir $(CURDIR))
+
 TSC := node_modules/.bin/tsc --declaration
+JEST := node_modules/.bin/jest
 
 .PHONY: packages typescript
 
@@ -22,4 +24,4 @@ package-lock.json: package.json
 	npm install --save-dev
 
 test:
-	npm run test
+	${JEST}
