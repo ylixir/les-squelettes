@@ -1,0 +1,12 @@
+--allowSyntheticDefaultImports
+--target esnext
+--declarationDir types
+--esModuleInterop
+--moduleResolution node
+--module commonjs
+--noImplicitAny
+--declaration
+--baseUrl .
+--incremental
+--sourceMap
+--declarationMap
