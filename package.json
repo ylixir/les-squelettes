@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ylixir/#project##readme",
   "devDependencies": {
+    "@types/node": "^12.6.8",
     "typescript": "^3.5.3"
   }
 }
